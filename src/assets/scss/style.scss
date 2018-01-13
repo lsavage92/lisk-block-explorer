@@ -1,4 +1,4 @@
-$app-width: 800px;
+$app-width: 95vw;
 
 html {
   height: 100%;
@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: helvetica;
+  background-color: #0288d1;
 }
 
 a {
@@ -56,24 +57,9 @@ h1, h2, h3, h4, h5 { margin: 0 0 10px 0; }
     display: flex;
     flex-direction: row;
 
-    .nav {
-      flex: 0 0 150px;
-      border-right: solid 1px #cccccc;
-      padding: 20px 0 0 0;
-
-      .link {
-        padding: 0 0 8px 0;
-
-        a {
-          text-decoration: none;
-        }
-      }
-    }
-
     .content {
       flex: 1 1 auto;
-      min-height: 600px;
-      background-color: white;
+      // min-height: 600px;
       padding: 20px;
     }
   }

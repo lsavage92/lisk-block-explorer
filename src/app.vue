@@ -1,3 +1,9 @@
+<style lang="scss">
+  .content {
+    background-color: #f5f5f5
+  }
+</style>
+
 <template>
   <div id="app">
     <div class="header">
